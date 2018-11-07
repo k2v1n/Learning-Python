@@ -14,8 +14,25 @@ list.insert(0,'anna')
 print("Unable to go to appointment " + non_list)
 print("Inviting dinner with " + list[0] + "," + list[1] + "," +list[2])
 
-list.append('lisa')
-list.append('pesi')
 list.insert(0,'peppa')
+list.insert(2,'lisa')
+list.insert(5,'pesi')
 
 print("Large dining table " + list[0] + "," + list[1] + "," + list[2] + "," + list[3] + "," + list[4] + "," + list[5])
+
+name = list.pop()
+print(name + " Sorry, I can't invite you to dinner.")
+name = list.pop()
+print(name + " Sorry, I can't invite you to dinner.")
+name = list.pop()
+print(name + " Sorry, I can't invite you to dinner.")
+name = list.pop()
+print(name + " Sorry, I can't invite you to dinner.")
+
+print(list)
+print("Large dining table " + list[0])
+print("Large dining table " + list[-1])
+
+del list[0]
+del list[-1]
+print(list)
