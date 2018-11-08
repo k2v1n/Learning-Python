@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# 3-8
+# 3-8放眼世界
 
 travel = ['France','USA','Spain','China','Italy']
 print(travel)
@@ -26,7 +26,7 @@ print(travel)
 travel.sort(reverse=True)
 print(travel)
 
-# 3-9
+# 3-9晚餐嘉宾
 list = []
 
 list.append('bob')
@@ -35,3 +35,14 @@ list.append('benjamin')
 
 print("Number of dinners:")
 print(len(list))
+
+# 3-10尝试使用多个函数
+country = ['France','USA','Spain','China','Italy']
+print(country)
+print(len(country))
+print(sorted(country))
+print(sorted(country,reverse=True))
+country.sort()
+print(country)
+country.reverse()
+print(country)
