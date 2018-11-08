@@ -46,3 +46,17 @@ country.sort()
 print(country)
 country.reverse()
 print(country)
+
+# 3-11有意引发错误
+# 索引错误
+motorcycles = ['honda','yamaha','suzuki','ducati']
+print(motorcycles[5])
+
+motorcycles = ['honda','yamaha','suzuki','ducati']
+print(motorcycles[3])
+
+motorcycles = ['honda','yamaha','suzuki','ducati']
+print(motorcycles[-1])
+
+motorcycles = []
+print(motorcycles[-1])
