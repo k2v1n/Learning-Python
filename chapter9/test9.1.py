@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # 9-1 餐馆
-class Restaurant:
+class Restaurant():
     """包含餐馆名称和烹饪类型的类"""
     def __init__(self, restaurant_name, cuisine_type):
         """初始化类属性"""
@@ -31,9 +31,10 @@ restaurant3 = Restaurant('Michelin starred', 'western food')
 restaurant3.describe_restaurant()
 
 # 9-3 用户
-class User:
+class User():
     """描述用户信息的类"""
     def __init__(self, first_name, last_name, *profile):
+        """初始化用户信息"""
         self.first_name = first_name
         self.last_name = last_name
         self.profile = profile
